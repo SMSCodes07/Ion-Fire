@@ -1,20 +1,7 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <img class="homeIlustration" alt="Ion-Fire" title="Ion-Fire" src="../../assets/ilustrations/firebase.png">
+  <h1 class="ion-text-center ion-text-capitalize AppTitle">Ion-Fire</h1>
+  <p class="ion-text-center appSubTitle">Integración de Firebase con Ionic</p>
+  <ion-button class="ion-text-center ion-text-capitalize loginButton" (click)="goToLogin()">Iniciar sesión</ion-button>
+  <p class="ion-text-center registerText" (click)="goToRegister()">¿No tienes cuenta? regístrate</p>
 </ion-content>

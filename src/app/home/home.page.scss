@@ -1,31 +1,29 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.homeIlustration{
+  width: 70%;
+  margin: auto;
+  display: block;
+  margin-top: 20%;
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.AppTitle{
+  font-size: 9vw;
+  margin-top: 5%;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.appSubTitle{
+  margin: 0px;
+  padding: 0px;
+  font-size: 4vw;
+  margin-top: 5%;
 }
-
-#container a {
-  text-decoration: none;
+.loginButton{
+  width: 85%;
+  height: 45px;
+  margin: auto;
+  display: block;
+  margin-top: 55%;
 }
-
-ion-content ion-toolbar {
-  --background: translucent;
+.registerText{
+  margin: 0px;
+  padding: 0px;
+  font-size: 4vw;
+  margin-top: 5%;
 }
