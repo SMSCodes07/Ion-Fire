@@ -30,5 +30,17 @@
     src: url('./assets/fonts/ProductSans-Regular.ttf');
 }
 *{
-    font-family: 'Product Sans', sans-serif;
+    font-family: 'Product Sans', sans-serif !important;
 }
+.authIlustration{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.appButton{
+    width: 85%;
+    height: 45px;
+    margin: auto;
+    display: block;
+    margin-top: 55%;
+  }

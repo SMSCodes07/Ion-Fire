@@ -1,0 +1,21 @@
+.appTitle{
+  font-size: 8vw;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.appSubTitle{
+  margin: 0px;
+  padding: 0px;
+  font-size: 4vw;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+.formItem{
+    width: 90%;
+    margin: auto;
+    display: block;
+    --highlight-color: #3880ff;
+    --highlight-color-focused: #3880ff;
+    --border-color: #3880ff;
+}

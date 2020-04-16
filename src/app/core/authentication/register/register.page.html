@@ -1,9 +1,20 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>register</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-
+  <img class="authIlustration" alt="Ion-Fire" title="Ion-Fire" src="../../../../assets/ilustrations/auth.png">
+  <h1 class="appTitle">Registro</h1>
+  <p class="appSubTitle">Powered by Firebase Authentication</p>
+  <form [formGroup]="registerForm">
+    <ion-item class="formItem">
+      <ion-label class="formLabel" color="primary" position="floating">Nombre</ion-label>
+      <ion-input type="text" class="formInput" formControlName="userName"></ion-input>
+    </ion-item>
+    <ion-item class="formItem">
+      <ion-label class="formLabel" color="primary" position="floating">Correo electrónico</ion-label>
+      <ion-input type="email" class="formInput" formControlName="userEmail"></ion-input>
+    </ion-item>
+    <ion-item class="formItem">
+      <ion-label class="formLabel" color="primary" position="floating">Contraseña</ion-label>
+      <ion-input type="password" class="formInput" formControlName="userPassword"></ion-input>
+    </ion-item>
+  </form>
+  <ion-button class="ion-text-center ion-text-capitalize appButton" (click)="createUser()" [disabled]="registerForm.invalid">Registrarme</ion-button>
 </ion-content>
